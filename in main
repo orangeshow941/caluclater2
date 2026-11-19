@@ -1,0 +1,12 @@
+tco=(2,3,5)
+tdl=('a','g','o')
+tsc=list(zip(tco,tdl))
+print(tsc,"\n")
+h3e4r=[10,200,3000,4000]
+king_orange=[155,655,788,900]
+for x, y in zip(h3e4r,king_orange[::-1]):
+    print(x,y)
+privce4= ['monye','onye','nye','ye','e',' ']
+monr=[9,23,645,54]
+new_stellp={privce4: monr for privce4 in zip(privce4, monr)}
+print('\n{}'.format(new_stellp))
